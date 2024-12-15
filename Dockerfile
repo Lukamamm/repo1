@@ -6,6 +6,6 @@ COPY backend.py .
 
 EXPOSE 5000	
 
-ENV __name__="luka mamulashvili"
+ENV NAME="luka mamulashvili"
 
 CMD ["python", "backend.py"]
